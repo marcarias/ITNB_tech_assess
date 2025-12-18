@@ -19,7 +19,7 @@ The assignment does not explicitly specify whether a versioning or deduplication
 ---
 
 ## Project Structure
-``
+```text
 ITNB_tech_assess/
 ├── chat/                      # Chat interface
 │   └── chat.py
@@ -41,7 +41,7 @@ ITNB_tech_assess/
 ├── main.py                    # Entry point 
 ├── requirements.txt
 └── .env
-``
+```
 ---
 
 ## INSTALL DEPENDENCIES
