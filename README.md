@@ -19,7 +19,7 @@ The assignment does not explicitly specify whether a versioning or deduplication
 ---
 
 ## Project Structure
-
+``
 ITNB_tech_assess/
 ├── chat/                      # Chat interface
 │   └── chat.py
@@ -31,17 +31,17 @@ ITNB_tech_assess/
 ├── ingestion/                 # Scripts to ingest data into GroundX
 │   ├── ingest_basic.py
 │   ├── ingest_deduplicate.py
-│   └── ingested_hashes.json/
+│   └── ingested_hashes.json
 ├── scraping/                  # Web scraping scripts
 │   ├── scrape_basic.py
-│   └── scrape_deduplicate.py/
+│   └── scrape_deduplicate.py
 ├── pipeline/                  # Web scraping scripts
 │   └── config.py
 ├── screenshots/               
 ├── main.py                    # Entry point 
 ├── requirements.txt
 └── .env
-
+``
 ---
 
 ## INSTALL DEPENDENCIES
@@ -167,7 +167,7 @@ python main.py
 or
 **Command (Deduplicate Version)**:
 ```bash
-python main.py
+python main.py --deduplicate
 ```
 
 ---
