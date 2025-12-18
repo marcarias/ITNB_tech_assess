@@ -183,6 +183,6 @@ python main.py --deduplicate
 
 - The assistant answers strictly using retrieved GroundX context.
 - If no relevant content is found, the assistant will say it does not know.
-- Scraping depth and page limits can be adjusted in scraping/scrape.py.
+- Scraping depth and page limits can be adjusted in `scraping/scrape_basic.py` or `scraping/scrape_deduplicate.py`.
 
 ---
