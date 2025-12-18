@@ -28,14 +28,14 @@ ITNB_tech_assess/
 │   ├── raw_deduplicate/       # Raw scraped pages (Deduplicated Version)
 │   ├── cleaned_basic/         # Cleaned & chunked JSON (Basic Version)
 │   └── cleaned_deduplicate/   # Cleaned & chunked JSON (Deduplicated Version)
-├── ingestion/                 # Scripts to ingest data into GroundX
+├── ingestion/                 # Ingest data into GroundX scripts
 │   ├── ingest_basic.py
 │   ├── ingest_deduplicate.py
 │   └── ingested_hashes.json
 ├── scraping/                  # Web scraping scripts
 │   ├── scrape_basic.py
 │   └── scrape_deduplicate.py
-├── pipeline/                  # Web scraping scripts
+├── pipeline/                  # Run all pipeline
 │   └── config.py
 ├── screenshots/               
 ├── main.py                    # Entry point 
@@ -176,6 +176,17 @@ or
 ```bash
 python main.py --deduplicate
 ```
+
+---
+
+## Libraries and Tools
+
+- **Python** – main programming language
+- **crawl4ai** – web crawling library used for data extraction (version 0.7.8)
+- **groundx** – RAG infrastructure and semantic search (version 2.9.3)
+- **python-dotenv** – used for managing environment variables in Python (version 1.2.1)
+- **openai** – OpenAI API client, used for interacting with OpenAI models (version 2.12.0)
+- **colorama** – used for color formatting in terminal output (version 0.4.6)
 
 ---
 
