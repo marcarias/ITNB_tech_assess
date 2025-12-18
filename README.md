@@ -76,9 +76,16 @@ The application requires several API keys to run.
 A template file named `.env.example` is provided in the root directory (`ITNB_tech_assess`)
 
 ### 1. Create your own `.env` file by copying the example:
+**Windows (PowerShell / CMD)**
+```bash
+copy .env.example .env
+```
+**Linux / Ubuntu / macOS**
 ```bash
 cp .env.example .env
 ```
+
+
 
 ### 2. Open `.env` and fill in your credentials for GroundX and OpenAI.
 ```bash
