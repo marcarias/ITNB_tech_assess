@@ -1,0 +1,8 @@
+#Note: crawl4ai uses Playwright internally.
+#After installing dependencies, it is possible that it requires running: playwright install
+
+crawl4ai==0.7.8       
+groundx==2.9.3
+python-dotenv==1.2.1
+openai==2.12.0
+colorama==0.4.6
